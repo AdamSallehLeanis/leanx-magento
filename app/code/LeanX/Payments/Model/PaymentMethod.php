@@ -14,18 +14,4 @@ class PaymentMethod extends \Magento\Payment\Model\Method\AbstractMethod
      */
     protected $_code = 'leanx';
 
-    /**
-     * Authorizes specified amount.
-     *
-     * @param InfoInterface $payment
-     * @param float         $amount
-     *
-     * @return $this
-     *
-     * @throws LocalizedException
-     */
-    public function authorize( \Magento\Payment\Model\InfoInterface $payment, $amount ) 
-    {
-        return $this;
-    }
 }
