@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/config.xsd">
+    <default>
+        <payment>
+            <leanx>
+                <active>1</active>
+                <model>LeanX\Payments\Model\Payment\LeanX</model>
+                <title>LeanX Payment Gateway</title>
+                <payment_action>authorize</payment_action>
+                <order_status>pending_payment</order_status>
+                <is_gateway>1</is_gateway>
+                <allowspecific>0</allowspecific>
+                <commandPool>Magento\Payment\Gateway\Command\CommandPool</commandPool>
+            </leanx>
+        </payment>
+    </default>
+</config>
