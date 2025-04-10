@@ -1,0 +1,33 @@
+{
+    "name": "leanx/payments",
+    "description": "Custom Magento 2 Payment Gateway: LeanX",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+      "proprietary"
+    ],
+    "authors": [
+      {
+        "name": "Adam Salleh",
+        "email": "adam.salleh@leanx.io"
+      }
+    ],
+    "require": {
+      "php": "^7.4 || ^8.1",
+      "magento/framework": "^103.0"
+    },
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "LeanX\\Payments\\": ""
+      }
+    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/AdamSallehLeanis/leanx-magento"
+      }
+    ]
+  }
