@@ -23,5 +23,11 @@
       "psr-4": {
         "LeanX\\Payments\\": ""
       }
-    }
+    },
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/AdamSallehLeanis/leanx-magento"
+      }
+    ]
   }
